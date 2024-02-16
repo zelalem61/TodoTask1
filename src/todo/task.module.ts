@@ -15,8 +15,3 @@ export class TaskModule {}
 
 
 
-@Module({
-    imports: [MongooseModule.forFeature([{name: Musics.name , schema: MusicsSchema}]), UsersModule, Music], // Include the imported UserModel
-    controllers: [MusicController],
-    providers: [MusicService],
-  })
