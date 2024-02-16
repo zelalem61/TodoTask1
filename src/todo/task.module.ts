@@ -9,7 +9,7 @@ import { TasksService } from './task.service';
     controllers: [TasksController],
     providers: [TasksService],
 })
-export class TodoModule {}
+export class TaskModule {}
 
 
 
